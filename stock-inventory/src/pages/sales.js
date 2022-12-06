@@ -8,7 +8,7 @@ const Sales = () => {
 
             <main>
                 <div className="container">
-                    <p className="container-header-text">Sales|<strong>Sale Quote</strong></p>
+                    <p className="container-header-text">Sales|<strong>SALE QUOTE</strong></p>
                 </div>
 
                 <div className="customer-container">
