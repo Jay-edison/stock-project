@@ -560,9 +560,16 @@ form {
 }
 
 .container {
-  margin-top: 40px;
-  margin-left: 12px;
+  margin-top: 10px;
+  margin-left: 14px;
   width: 99%;
+}
+
+.container-header-stock {
+  margin-top: 10px;
+  margin-left: 0.2rem;
+  width: 99%;
+
 }
 
 .container2 {
@@ -573,9 +580,13 @@ form {
 .container-header-text {
   color: #000;
   font-size: 20px;
+  /* margin-left: -0.2rem; */
   margin-bottom: 30px;
+  margin-left: -0.2rem;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+
 
 .container-header-bid {
   position: static;
@@ -800,9 +811,10 @@ form {
   color: #fff;
   border: none;
   border-radius: 2px;
-  margin: 15px 0px;
+  /* margin: 15px 0px; */
   margin-left: 10px;
   width: 141px;
+  height: 40px;
   font-size: 15px;
   font-family: sans-serif;
 }
@@ -1264,6 +1276,7 @@ input[type="radio"] {
   font-family: serif;
   margin-left: 0;
   margin-top: 0.6rem;
+  padding-left: 0.8rem;
  }
 
 .email {
@@ -1273,6 +1286,7 @@ input[type="radio"] {
   font-style: normal;
   font-family: serif;
   margin-top: 0.6rem;
+  padding-left: 0.8rem;
 
 }
 
@@ -1283,6 +1297,7 @@ input[type="radio"] {
   font-style: normal;
   font-family: serif;
   margin-top: 0.6rem;
+  padding-left: 0.8rem;
 }
 
 
@@ -1409,7 +1424,7 @@ label {
 
 .stock-container{
   display: flex;
-  background-color: #8b291c;
+  background-color: #FAFBFC;
   width: 466px;
   height: 134px;
   border: 1px solid #EBECF0;
@@ -1450,3 +1465,283 @@ label {
   justify-content:flex-end;
   align-items: flex-start; */
 }
+
+.table-container {
+  padding: 0 10%;
+  margin-top: 2rem;
+  padding-left: 0.1rem;
+  /* margin: 40px 10rem; */
+  white-space: nowrap;
+ 
+}
+
+.transfer-table {
+  border: 1px solid #b5b7bb;
+  border-radius: 3px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FAFBFC;
+
+}
+
+
+.transfer-table thead  tr {
+  border: 1px solid #b6b8bb;
+  /* padding: 20px; */
+}
+ 
+
+.transfer-table thead  tr th{
+  font-size: 1rem;
+  color: #6B778C;
+  font-weight: 600;
+  padding: 14px;
+  
+}
+
+
+.transfer-table tbody tr td {
+  font-size: 1rem;
+  /* padding-left: 2.5rem; */
+  padding: 20px;
+}
+
+.container-newbid {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: -4rem;
+  margin-left: 47rem;
+}
+
+.newbid-btn {
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  padding: 8px 0px;
+  background-color: #009f77;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  /* margin: 15px 0px; */
+  /* margin-left: 10px; */
+  width: 226px;
+  height: 40px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.container-entries {
+  display: flex;
+}
+
+.show-entries {
+  width: 77px;
+  height: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #505F79;
+  margin-left: 0.7rem;
+  margin-top: 1.9rem;
+}
+
+.entries {
+  width: 240px;
+  height: 40px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: serif;
+  margin-left: 0;
+  border: 1px solid #009F77;
+  border-radius: 3px;
+  margin-top: 0.6rem;
+  padding-left: 0.8rem;
+}
+
+.search-entries {
+  width: 240px;
+  height: 40px;
+  margin-top: 0.1rem;
+  margin-left: 18rem;
+  border-radius: 3px;
+  border: 1px solid #88898b;
+  padding-left: 0.8rem;
+  font-weight: 600;
+}
+
+.bid-header-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 3rem;
+  margin-left: 0.7rem;
+}
+
+.bid-header {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.category-container {
+  padding: 0 59%;
+  margin-top: 1.2rem;
+  padding-left: 0.7rem;
+  white-space: nowrap;
+}
+
+
+.category-table {
+  border: 1px solid #b5b7bb;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FAFBFC;
+}
+
+.category-table thead tr  {
+  border: 1px solid #b6b8bb;
+}
+
+
+.category-table thead  tr th {
+  font-size: 1rem;
+  color: #6B778C;
+  font-weight: 600;
+  padding: 10px 10rem;
+  padding-left: 1.7rem; 
+}
+
+
+.category-table tbody tr td {
+  font-size: 1rem;
+  padding: 16px ;
+  padding-left: 25px;
+}
+
+.category-img {
+  width: 32px;
+}
+
+.purchase-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 843px;
+  height: 328px;
+  margin-left: 0.7rem;
+  border: 1px solid #EBECF0;
+  background-color: #FAFBFC;
+}
+
+/* .purchase-inner {
+
+} */
+
+.purchase-header {
+  display: flex;
+  color: #172B4D;
+  font-size: 1.2rem;
+  padding: 1.4rem 1.4rem;
+}
+
+.reference-type {
+  /* width: 100%; */
+  margin-top: 10px;
+  display: grid;
+  /* color: #FFFFFF; */
+  grid-column-gap: 1px;
+  grid-template-columns: auto auto auto ;
+}
+
+.reference-form {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: auto auto auto ;
+  margin-top: -1.7rem;
+  padding-left: 1.3rem;
+}
+
+.ref-date {
+  width: 240px;
+  height: 40px;
+  /* margin-left: 1.5rem; */
+  /* margin: 15px 0px; */
+  margin-top: 0.5rem;
+  font-size: 15px;
+  color: #505F79;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.reference-date {
+   /* width: 100%; */
+   margin-top: 10px;
+   display: grid;
+   /* color: #FFFFFF; */
+   grid-column-gap: 1px;
+   grid-template-columns: auto auto auto ;
+}
+
+.date-form {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: auto auto auto ;
+  margin-top: 0rem;
+  padding-left: 1.3rem;
+}
+
+
+.purchase-search {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.7rem;
+}
+
+.purchase-btn{
+  display: flex;
+  align-items: center;
+  padding-left: 1.2rem;
+  background-color: #009F77;
+  color: #FFFFFF;
+  width: 91px;
+  height: 47px;
+  border: 1px solid #009F77;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.records-container {
+  display: flex;
+  /* background-color: #FAFBFC; */
+  /* width: 466px; */
+  /* height: 134px; */
+  /* border: 1px solid #EBECF0; */
+  /* border-radius: 3px; */
+}
+
+.records-inner {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  padding: 2.8rem 0.8rem;
+ 
+}
+
+.records-header {
+  height: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(9, 30, 66, 0.95);
+}
+
+.numb {
+  width: 240px;
+  height: 40px;
+  font-weight: 900;
+  font-style: normal;
+  font-family: serif;
+  margin-left: 1rem;
+  margin-top: -0.5rem;
+  /* padding-left: 1.8rem; */
+
+}
+
+
+

@@ -16,7 +16,6 @@ const Sales = () => {
                         <p className="customer-header">Customer Details</p>
 
                         <div className="sales-type">
-
                             <label className="column" for="item-type">
                                 Item type
                             </label>

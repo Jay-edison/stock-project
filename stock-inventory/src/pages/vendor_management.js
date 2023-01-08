@@ -8,7 +8,7 @@ const VendorManagement = () => {
     const checkbox = document.getElementById('checkbox');
 
     const handleCheckBox = () => {
-        if(!checkallBool){
+        if (!checkallBool) {
             setCheckAllBool(true);
             setCheckbox1(true);
         }
@@ -28,6 +28,7 @@ const VendorManagement = () => {
             <main>
                 <div className="container">
                     <p className="container-header-text">VENDOR MANAGEMENT|<strong>VIEW VENDOR</strong></p>
+
 
 
                     <div className="mini-container">
@@ -61,7 +62,10 @@ const VendorManagement = () => {
                             </div>
                         </div>
                     </div>
+
                 </div>
+
+
 
                 <div className="grids">
                     <div className="select-record">
@@ -80,7 +84,7 @@ const VendorManagement = () => {
                                     <div></div>
                                 )
                             }
-                            
+
                         </div>
                         <div className="transfer">
                             <div className="online-body">
@@ -100,7 +104,7 @@ const VendorManagement = () => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td> 
+                                            <td>
                                                 <div className="round">
                                                     <input type="checkbox" defaultChecked={checkbox_1} onClick={handleCheckBox} id="checkbox" />
                                                     <label htmlFor="checkbox"></label>
@@ -111,17 +115,17 @@ const VendorManagement = () => {
                                             <td>Oladeja</td>
                                             <td>muhdoladejio@yahoo.com</td>
                                             <td>787878787878</td>
-                                            <td><img className="grid-img" src={require("./asset/images/unApproved.svg").default} alt="not Approved"/></td>
-                                            <td><img className="req-img" src={require("./asset/images/Approved.svg").default} alt="Approved"/></td>
+                                            <td><img className="grid-img" src={require("./asset/images/unApproved.svg").default} alt="not Approved" /></td>
+                                            <td><img className="req-img" src={require("./asset/images/Approved.svg").default} alt="Approved" /></td>
                                             <td><img src={require("./asset/images/edit down.svg").default} alt="edit"></img> </td>
                                             <img className="img-eye" src={require("./asset/images/Fill 1.svg").default} alt="beep"></img>
                                             <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
-                                           
-                                        
+
+
 
                                         </tr>
                                         <tr>
-                                            <td> 
+                                            <td>
                                                 <div className="round">
                                                     <input type="checkbox" disabled id="checkbox-2" />
                                                     <label htmlFor="checkbox-2"></label>
@@ -132,12 +136,12 @@ const VendorManagement = () => {
                                             <td>Ifeowo Adeaje</td>
                                             <td>info@midtechng.com</td>
                                             <td>08087342517</td>
-                                            <td><img className="grid-img" src={require("./asset/images/Approved.svg").default} alt="Approved"/></td>
-                                            <td><img className="req-img" src={require("./asset/images/Approved.svg").default} alt="Approved"/></td>
-                                            <td><img src={require("./asset/images/edit down.svg").default} alt="edit"/></td>
+                                            <td><img className="grid-img" src={require("./asset/images/Approved.svg").default} alt="Approved" /></td>
+                                            <td><img className="req-img" src={require("./asset/images/Approved.svg").default} alt="Approved" /></td>
+                                            <td><img src={require("./asset/images/edit down.svg").default} alt="edit" /></td>
                                             <img className="img-eye" src={require("./asset/images/Fill 1.svg").default} alt="beep"></img>
                                             <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
-                                            
+
                                         </tr>
                                     </tbody>
                                 </table>

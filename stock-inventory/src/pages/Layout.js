@@ -15,8 +15,8 @@ const Layout = () => {
             <li className="active"><a href="/vendor-management"><i className="fa fa-users"></i>Vendor Managment</a><a className="chevron-down" href=""><i className="fa fa-chevron-down"></i></a></li>
             <li className="active"><a href="/sales"><i className="fa fa-money"></i>Sales</a><a className="chevron-down" href=""><i className="fa fa-chevron-down"></i ></a></li>
             <li className="active"><a href="/stock"><i className="fa fa-stack-exchange"></i> Stock</a><a className="chevron-down" href=""><i className="fa fa-chevron-down"></i></a></li>
-            <li className="active"><a href=""><i className="fa fa-cog"></i>Settings</a><a className="chevron-down" href=""><i className="fa fa-chevron-down"></i></a></li>
-            <li className="active"><a href=""><i className="fa fa-clone"></i>Report</a> <a className="chevron-down" href=""><i className="fa fa-chevron-down"></i ></a></li>
+            <li className="active"><a href="/settings"><i className="fa fa-cog"></i>Settings</a><a className="chevron-down" href=""><i className="fa fa-chevron-down"></i></a></li>
+            <li className="active"><a href="/report"><i className="fa fa-clone"></i>Report</a> <a className="chevron-down" href=""><i className="fa fa-chevron-down"></i ></a></li>
           </ul>
         </div>
 
