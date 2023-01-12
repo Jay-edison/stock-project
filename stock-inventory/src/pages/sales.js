@@ -16,24 +16,28 @@ const Sales = () => {
                         <p className="customer-header">Customer Details</p>
 
                         <div className="sales-type">
-                            <label className="column" for="item-type">
-                                Item type
-                            </label>
-                            <select className="item-date" name="">
-                                <option value="Select Item Type">Select Item Type</option>
-                            </select>
+                            <form className="type-form">
+                                <label>
+                                    Item Type
+                                    <select className="type-select" name="">
+                                        <option value="Select Item type">Select Item Date</option>
+                                    </select>
+                                </label>
 
-                            <label className="column" for="staff">Date</label>
-                            <select className="item-type" name="">
-                                <option value="Select Staff Category">Select Staff Category</option>
-                            </select>
+                                <label>
+                                    Staff
+                                    <select className="ref-date" name="">
+                                        <option value="Select staff category">Select Staff Category</option>
+                                    </select>
+                                </label>
 
-
-                            <label className="column-date" for="date">Staff</label>
-                            <select className="item-type" name="">
-                                <option value="Select Date">Select Date</option>
-                            </select>
-
+                                <label>
+                                    Date
+                                    <select className="ref-date" name="">
+                                        <option value="Select Date">Select Date</option>
+                                    </select>
+                                </label>
+                            </form>
                         </div>
 
                         <div className="sales-two">

@@ -149,7 +149,9 @@ const RequestManagement = () => {
                                         <p>You have to add items to your <br />
                                             Request.</p>
                                     </div>
-                                    <img src={require("./asset/images/Spot hero illustrations (Building Functionality).svg").default} alt="ballons" />
+                                    <div>
+                                        <img src={require("./asset/images/Spot hero illustrations (Building Functionality).svg").default} alt="ballons" />
+                                    </div>
                                 </center>
                             </div>
                         )
@@ -175,7 +177,7 @@ const RequestManagement = () => {
                 }
 
                 <div>
-                    <button className="item-container-btn to-right"> Make Request</button>
+                    <button className="item-container-btn"> Make Request</button>
                 </div>
 
                 <div id="request_item" className="modal">

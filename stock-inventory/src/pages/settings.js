@@ -47,8 +47,11 @@ const Settings = () => {
                                 <td><img className="category-img" src={require("./asset/images/edit down.svg").default} alt="edit"></img></td>
                             </tr>
                         </tbody>
-
                     </table>
+
+                    <p className="category-num">1 of 2 of 2</p>
+
+
 
 
                 </div>

@@ -87,6 +87,8 @@ const Stock = () => {
                         </tbody>
 
                     </table>
+                    <p className="category-num">1 of 2 of 2</p>
+
 
                 </div>
             </main>
