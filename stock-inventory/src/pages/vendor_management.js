@@ -29,12 +29,9 @@ const VendorManagement = () => {
                 <div className="container">
                     <p className="container-header-text">VENDOR MANAGEMENT|<strong>VIEW VENDOR</strong></p>
 
-
-
-                    <div className="mini-container">
+                    <div className="mini-container-vendor">
                         <div className="inner">
                             <p className="inner-header-text">Search Details</p>
-
 
                             <div className="split-3">
                                 <select className="my-select" name="">
@@ -54,25 +51,30 @@ const VendorManagement = () => {
                                     <span className="hide" ></span>
                                     <input className="search-input" type="search" placeholder=" Search by" />
                                     <i className="fa fa-search"></i>
+
                                 </div>
-
-
-                                <button className="vendor-btn" type="button" name="button">Search</button>
-
+                                <div className="vendor-cont">
+                                    <button className="vendor-btn" type="button" name="button">Search</button>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
 
-
-
                 <div className="grids">
                     <div className="select-record">
                         <div className="options">
-                            <label>Record per page</label>
-                            <input className="number-input" type="number" placeholder="100" />
-                            <button className="records-btn" type="button" name="button">Go To</button>
+                            <div className="options-inner">
+                                <p className="options-header">Records per page</p>
+
+                                <input type="number" className="numb" id="quantity" name="quantity" placeholder="100"></input>
+
+
+                                <div className="records-search">
+                                    <button className="goto-btn"> Go To</button>
+                                </div>
+                            </div>
                             {
                                 checkallBool ? (
                                     <div className="side-option">
@@ -117,13 +119,10 @@ const VendorManagement = () => {
                                             <td>787878787878</td>
                                             <td><img className="grid-img" src={require("./asset/images/unApproved.svg").default} alt="not Approved" /></td>
                                             <td><img className="req-img" src={require("./asset/images/Approved.svg").default} alt="Approved" /></td>
-                                            <td><img src={require("./asset/images/edit down.svg").default} alt="edit"></img> </td>
-                                            <img className="img-eye" src={require("./asset/images/Fill 1.svg").default} alt="beep"></img>
                                             <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
-
-
-
+                                            <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
                                         </tr>
+
                                         <tr>
                                             <td>
                                                 <div className="round">
@@ -138,10 +137,8 @@ const VendorManagement = () => {
                                             <td>08087342517</td>
                                             <td><img className="grid-img" src={require("./asset/images/Approved.svg").default} alt="Approved" /></td>
                                             <td><img className="req-img" src={require("./asset/images/Approved.svg").default} alt="Approved" /></td>
-                                            <td><img src={require("./asset/images/edit down.svg").default} alt="edit" /></td>
-                                            <img className="img-eye" src={require("./asset/images/Fill 1.svg").default} alt="beep"></img>
                                             <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
-
+                                            <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
                                         </tr>
                                     </tbody>
                                 </table>

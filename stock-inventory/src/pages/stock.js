@@ -8,7 +8,7 @@ const Stock = () => {
 
 
             <main>
-                <div className="container-header-stock">
+                <div className="container">
                     <p className="container-header-text">Stock|<strong>STOCK TRANSFER</strong></p>
                 </div>
 
@@ -62,7 +62,11 @@ const Stock = () => {
                                     src={require("./asset/images/Pending.svg").default}
                                     alt="Pending"
                                 /></td>
-                                <td data-label="Action">1</td>
+                                {/* <td data-label="Action">1</td> */}
+                                <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
+                                <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
+        
+
                             </tr>
                         </tbody>
                         <tbody>
@@ -82,7 +86,11 @@ const Stock = () => {
                                     src={require("./asset/images/Approved.svg").default}
                                     alt="processed"
                                 /></td>
-                                <td data-label="Action">1</td>
+                                {/* <td data-label="Action">1</td> */}
+                                <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
+                                <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
+
+
                             </tr>
                         </tbody>
 

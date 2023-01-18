@@ -1,4 +1,6 @@
 // import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const Settings = () => {
     return (
@@ -40,11 +42,16 @@ const Settings = () => {
                         <tbody>
                             <tr>
                                 <td data-label="Category Name">AUTO PAINT MATERIALS</td>
-                                <td><img className="category-img" src={require("./asset/images/edit.svg").default} alt="edit"></img></td>
+                                <td>#</td>
+
+
+
                             </tr>
                             <tr>
                                 <td>AUTO SPARES</td>
-                                <td><img className="category-img" src={require("./asset/images/edit down.svg").default} alt="edit"></img></td>
+                                {/* <td><img className="category-img" src={require("./asset/images/edit down.svg").default} alt="edit"></img></td> */}
+                                <td>#</td>
+
                             </tr>
                         </tbody>
                     </table>
