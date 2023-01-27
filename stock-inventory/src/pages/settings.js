@@ -43,15 +43,11 @@ const Settings = () => {
                             <tr>
                                 <td data-label="Category Name">AUTO PAINT MATERIALS</td>
                                 <td>#</td>
-
-
-
                             </tr>
                             <tr>
                                 <td>AUTO SPARES</td>
                                 {/* <td><img className="category-img" src={require("./asset/images/edit down.svg").default} alt="edit"></img></td> */}
                                 <td>#</td>
-
                             </tr>
                         </tbody>
                     </table>

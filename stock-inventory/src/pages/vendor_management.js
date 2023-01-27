@@ -66,15 +66,9 @@ const VendorManagement = () => {
                     <div className="select-record">
                         <div className="options">
                             <div className="options-inner">
-                                <p className="options-header">Records per page</p>
-
-                                <input type="number" className="numb" id="quantity" name="quantity" placeholder="100"></input>
-
-
-                                <div className="records-search">
-                                    <button className="goto-btn"> Go To</button>
-                                </div>
                             </div>
+
+
                             {
                                 checkallBool ? (
                                     <div className="side-option">
@@ -88,6 +82,7 @@ const VendorManagement = () => {
                             }
 
                         </div>
+
                         <div className="transfer">
                             <div className="online-body">
                                 <table>
@@ -107,7 +102,7 @@ const VendorManagement = () => {
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <div className="round">
+                                                <div className="round-bt">
                                                     <input type="checkbox" defaultChecked={checkbox_1} onClick={handleCheckBox} id="checkbox" />
                                                     <label htmlFor="checkbox"></label>
                                                 </div>
@@ -121,11 +116,13 @@ const VendorManagement = () => {
                                             <td><img className="req-img" src={require("./asset/images/Approved.svg").default} alt="Approved" /></td>
                                             <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
                                             <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
+
+
                                         </tr>
 
                                         <tr>
                                             <td>
-                                                <div className="round">
+                                                <div className="round-bt">
                                                     <input type="checkbox" disabled id="checkbox-2" />
                                                     <label htmlFor="checkbox-2"></label>
                                                 </div>

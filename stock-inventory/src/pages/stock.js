@@ -65,7 +65,7 @@ const Stock = () => {
                                 {/* <td data-label="Action">1</td> */}
                                 <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
                                 <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
-        
+
 
                             </tr>
                         </tbody>
@@ -89,8 +89,6 @@ const Stock = () => {
                                 {/* <td data-label="Action">1</td> */}
                                 <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
                                 <img className="img-check" src={require("./asset/images/Page 1.svg").default} alt="marker"></img>
-
-
                             </tr>
                         </tbody>
 

@@ -407,7 +407,43 @@ span {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   flex: 0 0 50%;
+  /* width: 100%; */
+}
+
+.order-batches {
+  padding: 0 10%;
+  margin-top: 7.1rem;
+  padding-left: 0.7rem;
+  /* margin: 40px 10rem; */
+  white-space: nowrap;
+}
+
+.order-batch-table {
+  border: 1px solid #b5b7bb;
+  border-radius: 3px;
   width: 100%;
+  border-collapse: collapse;
+  background-color: #FAFBFC;
+}
+
+.order-batch-table thead  tr {
+  border: 1px solid #b6b8bb;
+  /* padding: 20px; */
+}
+ 
+
+.order-batch-table thead  tr th{
+  font-size: 1rem;
+  color: #6B778C;
+  font-weight: 600;
+  padding: 14px;
+}
+
+
+.order-batch-table tbody tr td {
+  font-size: 1rem;
+  /* padding-left: 2.5rem; */
+  padding: 20px;
 }
 
 .transfer-grids {
@@ -416,12 +452,6 @@ span {
   padding-right: 0.8rem;
   padding-left: 13px;
 }
-
-/* .online-grids { */
-/* margin-top: -4rem; */
-/* width: 200%; */
-
-
 
 .date-grid {
   margin-top: 2rem;
@@ -437,8 +467,8 @@ span {
 }
 
 .options {
-  /* margin-bottom: 10px; */
-  margin-left: 20rem;
+  margin-bottom: 90px;
+  /* margin-left: 20rem; */
 }
 
 .options-inner {
@@ -448,14 +478,22 @@ span {
   padding: 1rem 0.8rem;
   white-space: nowrap;
   margin-left: -20.7rem;
-  margin-top: 1rem;
+  margin-top: -4rem;
 }
 
-.options-header {
-  height: 20px;
-  font-size: 1rem;
-  font-weight: 400;
-  color: rgba(9, 30, 66, 0.95);
+
+.records-cont {
+  /* margin: 2rem 2rem; */
+
+
+  display: flex;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+  padding: 1rem 0.8rem;
+  white-space: nowrap;
+  /* margin-left: -20.7rem; */
+  /* margin-top: -4rem; */
+
 }
 
 .card {
@@ -494,7 +532,7 @@ span {
 .card-body {
   padding: 1rem;
   color: rgb(53, 51, 51);
-  margin-left: -13px;
+  margin-left: -17px;
 }
 
 table {
@@ -675,6 +713,7 @@ form {
 .inner-header-text {
   font-size: 17px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  /* margin-top: 20px; */
 }
 
 .item-btn {
@@ -718,6 +757,7 @@ form {
 }
 
 .my-select {
+  margin-top: 7px;
   height: 40px;
   width: 95%;
   font-size: 15px;
@@ -1218,11 +1258,68 @@ input[type="radio"] {
 }
 
 .round {
+  /* position: absolute; */
   position: relative;
+  /* z-index: 1; */
 }
 
+.round-bt {
+  cursor: pointer;
+  height: 28px;
+  left: 0;
+}
+
+.round-bt label {
+  /* background-color: rgb(221, 82, 82); */
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  left: 0;
+  /* position: absolute; */
+  top: -15px;
+  margin-top: -1.2rem;
+  width: 28px;
+}
+
+
+.round-bt input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round-bt input[type="checkbox"]:checked + label {
+  background-color: #66bb6a;
+  border-color: #66bb6a;
+  
+}
+
+.round-bt input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  
+}
+
+.round-bt label:after {
+  border: 2px solid rgb(236, 231, 231);
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  /* left: 7px; */
+  margin-left: 0.3rem;
+  margin-top: 0.4rem;
+  /* padding-left: 1rem; */
+  opacity: 0;
+  /* position: absolute; */
+  top: 8px;
+  z-index: -1;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+
+
 .round label {
-  background-color: #fff;
+  background-color: rgb(221, 82, 82);
   border: 1px solid #ccc;
   border-radius: 50%;
   cursor: pointer;
@@ -1557,7 +1654,7 @@ label {
 .table-container {
   padding: 0 10%;
   margin-top: 2rem;
-  padding-left: 0.1rem;
+  padding-left: 0.7rem;
   /* margin: 40px 10rem; */
   white-space: nowrap;
  
