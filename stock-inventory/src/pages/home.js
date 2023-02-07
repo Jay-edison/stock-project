@@ -338,16 +338,61 @@ const Home = () => {
             </tbody>
           </table>
         </div>
-
-        <div>
-          <table>
-
-          </table>
-
+      </div>
+      <div className="latest-batches">
+        <div className="batches-header">
+          <h3>Latest Batches</h3>
         </div>
-
-
-
+        <table className="latest-table">
+          <thead>
+            <tr>
+              <th>Refrence No.</th>
+              <th>Open Date</th>
+              <th>Close Date</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ref-00000009</td>
+              <td>Nov 12, 2020, 10:32pm</td>
+              <td>Nov 12, 2020, 10:32pm</td>
+              <td>20</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>Ref-00000009</td>
+              <td>Nov 12, 2020, 10:32pm</td>
+              <td>Nov 12, 2020, 10:32pm</td>
+              <td>10</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>Ref-00000009</td>
+              <td>Nov 12, 2020, 10:32pm</td>
+              <td>Nov 12, 2020, 10:32pm</td>
+              <td>30</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>Ref-00000009</td>
+              <td>Nov 12, 2020, 10:32pm</td>
+              <td>Nov 12, 2020, 10:32pm</td>
+              <td>40</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>Ref-00000009</td>
+              <td>Nov 12, 2020, 10:32pm</td>
+              <td>Nov 12, 2020, 10:32pm</td>
+              <td>50</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
 

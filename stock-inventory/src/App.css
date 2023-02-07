@@ -412,6 +412,7 @@ span {
 
 .order-batches {
   padding: 0 10%;
+  /* width: 100%; */
   margin-top: 7.1rem;
   padding-left: 0.7rem;
   /* margin: 40px 10rem; */
@@ -428,23 +429,79 @@ span {
 
 .order-batch-table thead  tr {
   border: 1px solid #b6b8bb;
-  /* padding: 20px; */
+  padding: 20px;
+
 }
- 
 
 .order-batch-table thead  tr th{
   font-size: 1rem;
   color: #6B778C;
   font-weight: 600;
   padding: 14px;
-}
 
+}
 
 .order-batch-table tbody tr td {
   font-size: 1rem;
-  /* padding-left: 2.5rem; */
+  /* padding-left: 3.5rem; */
   padding: 20px;
 }
+
+.latest-batches {
+  display: grid;
+  margin-top: 3.8rem;
+  /* position: relative; */
+  width: 50%;
+  /* padding-right: 0.75rem; */
+  /* padding-left: 0.75rem; */
+  /* flex: 0 0 50%; */
+  /* width: 100%; */
+  padding: 0 2%;
+  /* width: 100%; */
+  /* margin-top: 4.1rem; */
+  padding-left: 0rem;
+  /* margin: 40px 10rem; */
+  /* white-space: nowrap; */
+}
+
+.batches-header {
+  padding: 1rem;
+  color: rgb(53, 51, 51);
+  margin-left: -17px;
+  /* padding-top: 2rem; */
+  /* margin-top: -1rem; */
+}
+
+.latest-table {
+  border: 1px solid #b5b7bb;
+  border-radius: 3px;
+  /* width: 100%; */
+  border-collapse: collapse;
+  background-color: #FAFBFC;
+  
+}
+
+.latest-table thead  tr {
+  border: 1px solid #b6b8bb;
+  padding: 20px;
+   white-space: nowrap;
+
+}
+
+.latest-table thead  tr th{
+  font-size: 1rem;
+  color: #6B778C;
+  font-weight: 600;
+  padding: 14px;
+
+}
+
+.latest-table tbody tr td {
+  font-size: 1rem;
+  /* padding-left: 3.5px; */
+  padding: 15px;
+}
+
 
 .transfer-grids {
   margin-top: 20px;
