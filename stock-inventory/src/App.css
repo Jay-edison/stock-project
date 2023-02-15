@@ -249,6 +249,7 @@ main {
 .grid-img {
   position: static;
   width: 70%;
+  /* height: 50%; */
   background-color: rgb(182, 233, 81);
 }
 
@@ -409,6 +410,102 @@ span {
   flex: 0 0 50%;
   /* width: 100%; */
 }
+
+.recent-request-container {
+  display: grid;
+  margin-top: 3.8rem;
+  margin-left: -1rem;
+  /* width: 50%; */
+  height: 60%;
+  padding: 0 2%;
+  /* padding : 2rem; */
+  /* padding-left: -10rem; */
+}
+
+.request-table {
+  /* height: 65%; */
+  border: 1px solid #b5b7bb;
+  border-radius: 3px;
+  /* width: 100%; */
+  /* margin-left: -1rem; */
+  border-collapse: collapse;
+  background-color: #FAFBFC;
+}
+
+.request-table thead  tr {
+  border: 1px solid #b6b8bb;
+  padding: 20px;
+  /* white-space: nowrap; */
+}
+
+.request-table thead  tr th{
+  font-size: 1rem;
+  color: #6B778C;
+  font-weight: 600;
+  padding: 14px;
+}
+
+.request-table tbody tr td {
+  font-size: 1rem;
+  /* padding-left: 3.5px; */
+  /* padding: 15px; */
+  padding: 18px 22px;
+}
+
+
+.order-status-container {
+  display: grid;
+  margin-top: 3.8rem;
+  /* position: relative; */
+  /* width: 50%; */
+  height: 60%;
+  /* padding-right: 0.75rem; */
+  /* padding-left: 0.75rem; */
+  /* flex: 0 0 50%; */
+  /* width: 100%; */
+  padding: 0 2%;
+  /* width: 100%; */
+  /* margin-top: 4.1rem; */
+  padding-left: 0rem;
+  /* margin-left: rem; */
+  /* margin-left: 30px; */
+  /* margin: 40px 10rem; */
+  /* white-space: nowrap; */
+}
+
+.status-table {
+  /* height: 65%; */
+  border: 1px solid #b5b7bb;
+  border-radius: 3px;
+  /* margin-left: 0.5rem; */
+  /* width: 100%; */
+  border-collapse: collapse;
+  background-color: #FAFBFC;
+}
+
+
+.status-table thead  tr {
+  border: 1px solid #b6b8bb;
+  padding: 20px;
+  /* white-space: nowrap; */
+
+}
+
+.status-table thead  tr th{
+  font-size: 1rem;
+  color: #6B778C;
+  font-weight: 600;
+  padding: 14px;
+
+}
+
+.status-table tbody tr td {
+  font-size: 1rem;
+  /* padding-left: 3.5px; */
+  /* padding: 15px; */
+  padding: 18px 29px;
+}
+
 
 .order-batches {
   padding: 0 10%;
@@ -1001,6 +1098,7 @@ form {
 .container-details h2 {
   color: rgb(61, 61, 61);
   text-align: center;
+  font-size: 16px;
   margin-left: -15%;
 }
 
